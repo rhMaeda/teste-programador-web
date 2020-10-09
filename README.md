@@ -2,7 +2,7 @@
 
 O objetivo deste teste é conhecer suas habilidades em:
 
-* PHP, MySQL/PostgreSQL, HTML, CSS e JavaScript;
+* PHP, MySQL ou PostgreSQL, HTML, CSS e JavaScript;
 * Entendimento e análise dos requisitos;
 * Modelagem de banco de dados;
 * Integração com WebServices;
