@@ -1,3 +1,40 @@
+# Teste
+### Passo a passo
+Copiar arquivo .env.example para .env
+```sh
+$ cd teste-programador-web
+$ php artisan key:generate
+```
+Pegar a chave gerada e substituir na APP_KEY em .env
+Configurar acesso do DB no .env
+
+Criar banco com nome "imply"
+```sh
+$ php artisan migrate
+```
+Para alimentar o banco com produtos via seed:
+```sh
+$ php artisan db:seed
+```
+Para iniciar o servidor
+```sh
+$ php artisan serve
+```
+* PHP
+* CSS
+* Bootstrap
+* HTML
+* Javascript
+* VueJS
+* Axios
+* MySQL
+* Blade
+* Carbon
+* Eloquent
+
+
+
+
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
 <p align="center">
