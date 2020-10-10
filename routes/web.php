@@ -15,4 +15,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('/venda', 'VendaController@index');
+Route::get('/vendas', 'VendaController@listVendas');
 Route::get('/listaprodutos', 'VendaController@listProdutos');
+Route::post('/criavenda', 'VendaController@criaVenda');

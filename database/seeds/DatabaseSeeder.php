@@ -25,11 +25,11 @@ class ProdutoTableSeeder extends Seeder {
 	{
 
         DB::insert('insert into provider
-		(name)
+		(nameP)
 		values (?)',
         array('Frutaria Veneza, Frutaria Casas de oleo'));
         DB::insert('insert into provider
-		(name)
+		(nameP)
 		values (?)',
 		array('Frutaria Carrefour'));
 

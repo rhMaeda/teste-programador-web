@@ -15,7 +15,7 @@ class Sale extends Migration
         //
         Schema::create('sale', function (Blueprint $table) {
             $table->increments('id');
-            $table->date('date');
+            $table->datetime('date');
             $table->decimal('total', 5, 2);
             $table->string('address');
         });
